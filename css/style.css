@@ -1,4 +1,5 @@
 #wrapper {
+    display: grid;
     width: 100%;
     position: absolute;
     top: 0;
@@ -16,14 +17,16 @@
 
 #n {
     grid-area: n;
-    padding: 30px;
+    padding: 20px;
     color: white;
-    border-bottom: 2px solid white;
-    font-family: sans-serif;
-    font-weight:bold;
+    border-bottom: 1px solid white;
     font-size: larger;
     justify-content: space-evenly;
     display: flex;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+
 }
 
 a {
@@ -47,4 +50,13 @@ a {
     padding: 10vh;
     padding-top: 10vh;
     font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
