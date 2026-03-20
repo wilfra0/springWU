@@ -4,13 +4,13 @@
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
     grid-template-areas:
         "n n n n n n"
         "h h h h h h"
         "m m m m m m"
         "m m m m m m"
         "f f f f f f";
-    /*background-image: url("/img/spacebackground.jpg");*/
     background-color: black;
     background-size: 100% 100%;
 }
@@ -64,13 +64,37 @@ p {
     margin-right: auto;
 }
 
+.milkyway {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10vh;
+}
+
+.milkytext {
+    height: auto;
+    margin-top: 12vh;
+    margin-left: 7vh;
+}
+
+#sidemilkyway { 
+margin-left: 45vh;
+}
+
 .sagittarius-section {
     display: flex;
     align-items: flex-start;
     padding-top: 10vh;
-    
 }
 
 .sagittarius-section img {
     height: auto;
 }
+
+.moon {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    margin-top: 40vh;
+}
+
+
