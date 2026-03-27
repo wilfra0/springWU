@@ -46,7 +46,7 @@ a {
 #m {
     grid-area: m;
     color: white;
-    padding: 10vh;
+    /*padding: 10vh;*/
     padding-top: 10vh;
     font-family: sans-serif;
     margin-left: auto;
@@ -97,4 +97,18 @@ margin-left: 45vh;
     margin-top: 40vh;
 }
 
+#moonlanding {
+    margin-top: 20vh;
+}
 
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.top-right {
+    position: absolute;
+    top: 1vh;
+    right: 14vh;
+    max-width: 45vh;
+}
