@@ -103,7 +103,7 @@ margin-left: 45vh;
 
 .container {
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 .top-right {
@@ -111,4 +111,11 @@ margin-left: 45vh;
     top: 1vh;
     right: 14vh;
     max-width: 45vh;
+}
+
+.jorden {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    margin-top: 20vh
 }
