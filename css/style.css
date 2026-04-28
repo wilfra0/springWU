@@ -77,17 +77,23 @@ p {
 }
 
 #sidemilkyway { 
-margin-left: 45vh;
+    margin-left: 45vh;
 }
 
 .sagittarius-section {
     display: flex;
     align-items: flex-start;
-    padding-top: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
 }
 
 .sagittarius-section img {
     height: auto;
+    padding-bottom: 0vh;
+}
+
+.sagittarius-text {
+    padding-top: 15vh;
 }
 
 .moon {
@@ -111,6 +117,9 @@ margin-left: 45vh;
     top: 1vh;
     right: 14vh;
     max-width: 45vh;
+    background-color: black;
+    padding: 4vh;
+    border-radius: 18px;
 }
 
 .jorden {
@@ -118,4 +127,8 @@ margin-left: 45vh;
     align-items: flex-start;
     height: auto;
     margin-top: 20vh
+}
+
+img.wormhole {
+    padding-top: 20vh;
 }
