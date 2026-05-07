@@ -2,7 +2,7 @@
     display: grid;
     width: 100%;
     grid-template-areas:
-        "n n n n n n"
+        "n n n n n n"   
         "h h h h h h"
         "m m m m m m"
         "m m m m m m"
@@ -47,7 +47,6 @@ a {
 #m {
     grid-area: m;
     color: white;
-    /*padding: 10vh;*/
     padding-top: 10vh;
     font-family: sans-serif;
     margin-left: auto;
@@ -142,3 +141,57 @@ footer {
     padding: 2vh;
     font-family: sans-serif;
 }   
+
+
+@media (max-width: 768px) {
+
+    .milkyway,
+    .sagittarius-section,
+    .moon,
+    .jorden {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .milkytext,
+    .sagittarius-text {
+        margin: 1rem 0;
+        padding: 0 1rem;
+    }
+
+    #sidemilkyway {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    #h {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    #m {
+        padding-top: 1rem;
+    }
+
+    #n {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .moon,
+    .jorden {
+        margin-top: 2rem;
+    }
+
+    .top-right {
+        position: static;
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+}
